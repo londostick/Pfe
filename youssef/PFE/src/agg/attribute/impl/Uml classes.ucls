@@ -1,0 +1,1661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="agg.xt_basis.GraTra" project="PFE" file="/PFE/src/agg/xt_basis/GraTra.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1217" width="420" x="1398" y="940"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="agg.xt_basis.GraTraEventListener" project="PFE" 
+    file="/PFE/src/agg/xt_basis/GraTraEventListener.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="83" width="243" x="42" y="2197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="agg.xt_basis.Completion_NAC" project="PFE" 
+    file="/PFE/src/agg/xt_basis/Completion_NAC.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="695" width="396" x="1818" y="23745"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="agg.xt_basis.ShiftedPAC" project="PFE" 
+    file="/PFE/src/agg/xt_basis/ShiftedPAC.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="209" width="230" x="2308" y="14726"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="agg.xt_basis.Step" project="PFE" file="/PFE/src/agg/xt_basis/Step.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="551" width="830" x="-55" y="-317"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="agg.xt_basis.TypeException" project="PFE" 
+    file="/PFE/src/agg/xt_basis/TypeException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="164" x="3439" y="23745"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="agg.xt_basis.LayeredGraTraImpl" project="PFE" 
+    file="/PFE/src/agg/xt_basis/LayeredGraTraImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1199" width="330" x="1657" y="2197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="agg.xt_basis.TypeGraph" project="PFE" file="/PFE/src/agg/xt_basis/TypeGraph.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1289" width="755" x="3689" y="26442"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="agg.xt_basis.OrdinaryMorphism" project="PFE" 
+    file="/PFE/src/agg/xt_basis/OrdinaryMorphism.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="3773" width="600" x="3624" y="15857"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="agg.xt_basis.RulePriority" project="PFE" 
+    file="/PFE/src/agg/xt_basis/RulePriority.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="245" width="302" x="2805" y="5120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="agg.xt_basis.Match" project="PFE" file="/PFE/src/agg/xt_basis/Match.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1091" width="405" x="1863" y="14726"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="agg.xt_basis.MorphCompletionStrategy" project="PFE" 
+    file="/PFE/src/agg/xt_basis/MorphCompletionStrategy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="983" width="396" x="1222" y="19680"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="agg.xt_basis.RuleLayer" project="PFE" file="/PFE/src/agg/xt_basis/RuleLayer.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="281" width="295" x="2118" y="5120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="agg.xt_basis.RuleSequencesGraTraImpl" project="PFE" 
+    file="/PFE/src/agg/xt_basis/RuleSequencesGraTraImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="821" width="400" x="2027" y="2197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="agg.xt_basis.UndirectedGraph" project="PFE" 
+    file="/PFE/src/agg/xt_basis/UndirectedGraph.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="353" width="285" x="3051" y="23745"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="agg.xt_basis.GraTraOptions" project="PFE" 
+    file="/PFE/src/agg/xt_basis/GraTraOptions.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="749" width="340" x="325" y="2197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="agg.xt_basis.GraphKind" project="PFE" file="/PFE/src/agg/xt_basis/GraphKind.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="299" width="145" x="815" y="-317"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="agg.xt_basis.MappingEvent" project="PFE" 
+    file="/PFE/src/agg/xt_basis/MappingEvent.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="155" width="287" x="853" y="26442"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="agg.xt_basis.NACStarMorphism" project="PFE" 
+    file="/PFE/src/agg/xt_basis/NACStarMorphism.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="335" width="405" x="1708" y="19680"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="20" language="java" name="agg.xt_basis.Type" project="PFE" file="/PFE/src/agg/xt_basis/Type.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1847" width="459" x="620" y="30054"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="21" language="java" name="agg.xt_basis.PriorityGraTraImpl" project="PFE" 
+    file="/PFE/src/agg/xt_basis/PriorityGraTraImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="587" width="311" x="705" y="2197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="agg.xt_basis.GraGra" project="PFE" file="/PFE/src/agg/xt_basis/GraGra.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="4565" width="537" x="4507" y="5120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="agg.xt_basis.TypeError" project="PFE" file="/PFE/src/agg/xt_basis/TypeError.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="605" width="271" x="3378" y="26442"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="agg.xt_basis.TypeGraphArc" project="PFE" 
+    file="/PFE/src/agg/xt_basis/TypeGraphArc.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="479" width="230" x="2739" y="23745"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="agg.xt_basis.TypeImpl" project="PFE" file="/PFE/src/agg/xt_basis/TypeImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="2387" width="459" x="16" y="15857"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="agg.xt_basis.TestStep" project="PFE" file="/PFE/src/agg/xt_basis/TestStep.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="497" width="830" x="1000" y="-317"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="agg.xt_basis.BaseFactory" project="PFE" 
+    file="/PFE/src/agg/xt_basis/BaseFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="2873" width="1072" x="3962" y="2197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="agg.xt_basis.UndirectedTypeGraph" project="PFE" 
+    file="/PFE/src/agg/xt_basis/UndirectedTypeGraph.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="281" width="284" x="3689" y="27771"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="agg.xt_basis.NodeTypeImpl" project="PFE" 
+    file="/PFE/src/agg/xt_basis/NodeTypeImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="2387" width="459" x="515" y="15857"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="agg.xt_basis.ColimDiagram" project="PFE" 
+    file="/PFE/src/agg/xt_basis/ColimDiagram.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="317" width="641" x="1182" y="14726"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="31" language="java" name="agg.xt_basis.Morphism" project="PFE" 
+    file="/PFE/src/agg/xt_basis/Morphism.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="227" width="352" x="2598" y="19680"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="32" language="java" name="agg.xt_basis.AGGBasicAppl" project="PFE" 
+    file="/PFE/src/agg/xt_basis/AGGBasicAppl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="551" width="268" x="3922" y="-317"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="agg.xt_basis.InverseRuleConstructData" project="PFE" 
+    file="/PFE/src/agg/xt_basis/InverseRuleConstructData.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="335" width="531" x="2578" y="14726"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="agg.xt_basis.NestedApplCond" project="PFE" 
+    file="/PFE/src/agg/xt_basis/NestedApplCond.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1037" width="323" x="3671" y="19680"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="agg.xt_basis.UndirectedArc" project="PFE" 
+    file="/PFE/src/agg/xt_basis/UndirectedArc.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="353" width="384" x="2587" y="27771"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="agg.xt_basis.ApplRuleSequencesGraTraImpl" project="PFE" 
+    file="/PFE/src/agg/xt_basis/ApplRuleSequencesGraTraImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="191" width="312" x="2453" y="5120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="agg.xt_basis.DefaultGraTraImpl" project="PFE" 
+    file="/PFE/src/agg/xt_basis/DefaultGraTraImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="569" width="279" x="1077" y="2197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="agg.xt_basis.ParallelRule" project="PFE" 
+    file="/PFE/src/agg/xt_basis/ParallelRule.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1037" width="1001" x="3149" y="14726"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="agg.xt_basis.Completion_InjCSP" project="PFE" 
+    file="/PFE/src/agg/xt_basis/Completion_InjCSP.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="188" x="1870" y="-317"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="agg.xt_basis.Version" project="PFE" file="/PFE/src/agg/xt_basis/Version.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="155" width="122" x="2098" y="-317"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="agg.xt_basis.TypeSet" project="PFE" file="/PFE/src/agg/xt_basis/TypeSet.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="2657" width="506" x="3938" y="23745"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="agg.xt_basis.TypeGraphNode" project="PFE" 
+    file="/PFE/src/agg/xt_basis/TypeGraphNode.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="371" width="226" x="660" y="19680"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="agg.xt_basis.StaticStep" project="PFE" 
+    file="/PFE/src/agg/xt_basis/StaticStep.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="605" width="830" x="2260" y="-317"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="44" language="java" name="agg.xt_basis.Node" project="PFE" file="/PFE/src/agg/xt_basis/Node.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="965" width="382" x="2317" y="23745"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="45" language="java" name="agg.xt_basis.GraTraEvent" project="PFE" 
+    file="/PFE/src/agg/xt_basis/GraTraEvent.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="749" width="223" x="1154" y="5120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="46" language="java" name="agg.xt_basis.ArcTypeImpl" project="PFE" 
+    file="/PFE/src/agg/xt_basis/ArcTypeImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="2243" width="459" x="98" y="27771"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="47" language="java" name="agg.xt_basis.GraphObject" project="PFE" 
+    file="/PFE/src/agg/xt_basis/GraphObject.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="803" width="389" x="3011" y="27771"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="48" language="java" name="agg.xt_basis.BadMappingException" project="PFE" 
+    file="/PFE/src/agg/xt_basis/BadMappingException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="188" x="853" y="23745"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="49" language="java" name="agg.xt_basis.CompletionStrategySelector" project="PFE" 
+    file="/PFE/src/agg/xt_basis/CompletionStrategySelector.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="155" width="345" x="1222" y="15857"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="50" language="java" name="agg.xt_basis.Arc" project="PFE" file="/PFE/src/agg/xt_basis/Arc.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="677" width="324" x="2666" y="26442"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="51" language="java" name="agg.xt_basis.PACStarMorphism" project="PFE" 
+    file="/PFE/src/agg/xt_basis/PACStarMorphism.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="335" width="405" x="2153" y="19680"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="52" language="java" name="agg.xt_basis.MatchHelper" project="PFE" 
+    file="/PFE/src/agg/xt_basis/MatchHelper.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1217" width="752" x="3130" y="-317"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="53" language="java" name="agg.xt_basis.ConcurrentRule" project="PFE" 
+    file="/PFE/src/agg/xt_basis/ConcurrentRule.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1847" width="892" x="3575" y="5120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="54" language="java" name="agg.xt_basis.Graph" project="PFE" file="/PFE/src/agg/xt_basis/Graph.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="4025" width="599" x="2990" y="19680"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="55" language="java" name="agg.xt_basis.Rule" project="PFE" file="/PFE/src/agg/xt_basis/Rule.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="4961" width="572" x="3149" y="9725"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="56">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <association id="57">    
+    <bendpoint x="4201" y="14726"/>    
+    <end type="SOURCE" refId="55" navigable="false">      
+      <attribute id="58" name="itsNACs"/>      
+      <multiplicity id="59" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="60">    
+    <end type="SOURCE" refId="54" navigable="false">      
+      <attribute id="61" name="itsTypes"/>      
+      <multiplicity id="62" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="41" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="63">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="64" name="itsRelatedMatch"/>      
+      <multiplicity id="65" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="66">    
+    <bendpoint x="1805" y="15857"/>    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="67" name="itsNACstars"/>      
+      <multiplicity id="68" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="69">    
+    <end type="SOURCE" refId="41" navigable="false">      
+      <attribute id="70" name="inheritanceArcs"/>      
+      <multiplicity id="71" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="72">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="73" name="layer"/>      
+      <multiplicity id="74" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="75">    
+    <end type="SOURCE" refId="44" navigable="false">      
+      <attribute id="76" name="itsOutgoingArcs"/>      
+      <multiplicity id="77" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="78">    
+    <end type="SOURCE" refId="50" navigable="false">      
+      <attribute id="79" name="itsTarget"/>      
+      <multiplicity id="80" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="81">    
+    <bendpoint x="1407" y="2197"/>    
+    <bendpoint x="1407" y="5120"/>    
+    <bendpoint x="1407" y="9725"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="82" name="currentMatch"/>      
+      <multiplicity id="83" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="84">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="85" name="itsNAC"/>      
+      <multiplicity id="86" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="87">    
+    <bendpoint x="1067" y="14726"/>    
+    <bendpoint x="1004" y="15857"/>    
+    <bendpoint x="916" y="19680"/>    
+    <bendpoint x="822" y="23745"/>    
+    <bendpoint x="822" y="26442"/>    
+    <bendpoint x="822" y="27771"/>    
+    <end type="SOURCE" refId="55" navigable="false">      
+      <attribute id="88" name="abstractType2childType"/>      
+      <multiplicity id="89" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="90">    
+    <bendpoint x="67" y="19680"/>    
+    <bendpoint x="67" y="23745"/>    
+    <bendpoint x="67" y="26442"/>    
+    <bendpoint x="67" y="27771"/>    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="91" name="itsParents"/>      
+      <multiplicity id="92" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="93">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="48"/>  
+  </generalization>  
+  <association id="94">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="95" name="itsStrategy"/>      
+      <multiplicity id="96" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="97">    
+    <bendpoint x="2043" y="15857"/>    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="98" name="itsCurrentPACstar"/>      
+      <multiplicity id="99" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="51" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="100">    
+    <bendpoint x="2635" y="26442"/>    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="47"/>  
+  </generalization>  
+  <association id="101">    
+    <bendpoint x="2423" y="26442"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="102" name="itsSavedState"/>      
+      <multiplicity id="103" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="104">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="105" name="itsRules"/>      
+      <multiplicity id="106" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="55" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="107">    
+    <bendpoint x="1151" y="14726"/>    
+    <bendpoint x="1149" y="15857"/>    
+    <bendpoint x="1155" y="19680"/>    
+    <bendpoint x="1162" y="23745"/>    
+    <bendpoint x="1170" y="26442"/>    
+    <end type="SOURCE" refId="55" navigable="false">      
+      <attribute id="108" name="created"/>      
+      <multiplicity id="109" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="110">    
+    <end type="SOURCE" refId="55" navigable="false">      
+      <attribute id="111" name="invConstruct"/>      
+      <multiplicity id="112" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="113">    
+    <bendpoint x="4474" y="9725"/>    
+    <bendpoint x="4474" y="14726"/>    
+    <end type="SOURCE" refId="53" navigable="false">      
+      <attribute id="114" name="embRr2ToRcr"/>      
+      <multiplicity id="115" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="116">    
+    <end type="SOURCE" refId="54" navigable="false">      
+      <attribute id="117" name="itsUsingMorphs"/>      
+      <multiplicity id="118" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="119">    
+    <bendpoint x="3179" y="2197"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="120" name="grammar"/>      
+      <multiplicity id="121" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="122">    
+    <bendpoint x="3931" y="940"/>    
+    <bendpoint x="3931" y="2197"/>    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="123" name="gragra"/>      
+      <multiplicity id="124" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="125">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="126" name="itsACs"/>      
+      <multiplicity id="127" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="128">    
+    <end type="SOURCE" refId="42" navigable="false">      
+      <attribute id="129" name="itsNode"/>      
+      <multiplicity id="130" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="44" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="131">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="132" name="rulesVec"/>      
+      <multiplicity id="133" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="55" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="134">    
+    <end type="SOURCE" refId="41" navigable="false">      
+      <attribute id="135" name="typeGraph"/>      
+      <multiplicity id="136" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="137">    
+    <bendpoint x="4180" y="14726"/>    
+    <end type="SOURCE" refId="55" navigable="false">      
+      <attribute id="138" name="itsPACs"/>      
+      <multiplicity id="139" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="140">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <association id="141">    
+    <bendpoint x="608" y="19680"/>    
+    <bendpoint x="608" y="23745"/>    
+    <bendpoint x="608" y="26442"/>    
+    <bendpoint x="608" y="27771"/>    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="142" name="itsParents"/>      
+      <multiplicity id="143" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="144">    
+    <end type="SOURCE" refId="53" navigable="false">      
+      <attribute id="145" name="concurrentRule"/>      
+      <multiplicity id="146" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="55" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="147">    
+    <bendpoint x="4579" y="9725"/>    
+    <bendpoint x="4600" y="14726"/>    
+    <bendpoint x="4600" y="15857"/>    
+    <bendpoint x="4600" y="19680"/>    
+    <bendpoint x="4600" y="23745"/>    
+    <bendpoint x="4600" y="26442"/>    
+    <end type="SOURCE" refId="53" navigable="false">      
+      <attribute id="148" name="reflectedObjectFlowOI"/>      
+      <multiplicity id="149" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="150">    
+    <end type="SOURCE" refId="38" navigable="false">      
+      <attribute id="151" name="sources"/>      
+      <multiplicity id="152" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="55" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="153">    
+    <bendpoint x="4222" y="14726"/>    
+    <end type="SOURCE" refId="55" navigable="false">      
+      <attribute id="154" name="itsACs"/>      
+      <multiplicity id="155" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="156">    
+    <bendpoint x="629" y="19680"/>    
+    <bendpoint x="629" y="23745"/>    
+    <bendpoint x="629" y="26442"/>    
+    <bendpoint x="629" y="27771"/>    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="20"/>  
+  </realization>  
+  <generalization id="157">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <association id="158">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="159" name="wrongObject"/>      
+      <multiplicity id="160" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="161">    
+    <bendpoint x="3020" y="26442"/>    
+    <bendpoint x="3020" y="23745"/>    
+    <end type="SOURCE" refId="47" navigable="false">      
+      <attribute id="162" name="itsContext"/>      
+      <multiplicity id="163" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="54" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="164">    
+    <end type="SOURCE" refId="50" navigable="false">      
+      <attribute id="165" name="itsSource"/>      
+      <multiplicity id="166" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="167">    
+    <bendpoint x="1386" y="2197"/>    
+    <bendpoint x="1123" y="5120"/>    
+    <bendpoint x="1088" y="9725"/>    
+    <bendpoint x="1088" y="14726"/>    
+    <bendpoint x="1597" y="15857"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="168" name="hostgraph"/>      
+      <multiplicity id="169" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="54" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="170">    
+    <bendpoint x="3640" y="19680"/>    
+    <bendpoint x="3408" y="23745"/>    
+    <bendpoint x="3326" y="26442"/>    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="171" name="itsCodomObjects"/>      
+      <multiplicity id="172" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="173">    
+    <bendpoint x="2999" y="23745"/>    
+    <end type="SOURCE" refId="54" navigable="false">      
+      <attribute id="174" name="itsArcs"/>      
+      <multiplicity id="175" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="176">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="177" name="graTraListeners"/>      
+      <multiplicity id="178" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="179">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <association id="180">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="181" name="itsCoMorph"/>      
+      <multiplicity id="182" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="183">    
+    <end type="SOURCE" refId="38" navigable="false">      
+      <attribute id="184" name="embeddingRight"/>      
+      <multiplicity id="185" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="186">    
+    <bendpoint x="4306" y="9725"/>    
+    <bendpoint x="4306" y="14726"/>    
+    <end type="SOURCE" refId="53" navigable="false">      
+      <attribute id="187" name="overlap2"/>      
+      <multiplicity id="188" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="189">    
+    <end type="SOURCE" refId="51" navigable="false">      
+      <attribute id="190" name="itsRelatedMorph"/>      
+      <multiplicity id="191" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="192">    
+    <bendpoint x="4432" y="9725"/>    
+    <bendpoint x="4432" y="14726"/>    
+    <end type="SOURCE" refId="53" navigable="false">      
+      <attribute id="193" name="embLr1ToLcr"/>      
+      <multiplicity id="194" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="195">    
+    <bendpoint x="2022" y="15857"/>    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="196" name="itsColimGraph"/>      
+      <multiplicity id="197" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="54" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="198">    
+    <bendpoint x="4495" y="9725"/>    
+    <bendpoint x="4495" y="14726"/>    
+    <bendpoint x="4411" y="15857"/>    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="199" name="itsStartGraph"/>      
+      <multiplicity id="200" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="54" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="201">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="202" name="itsArc"/>      
+      <multiplicity id="203" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="204">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="205" name="options"/>      
+      <multiplicity id="206" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="207">    
+    <end type="SOURCE" refId="41" navigable="false">      
+      <attribute id="208" name="SUCCESS"/>      
+      <multiplicity id="209" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="210">    
+    <bendpoint x="5074" y="940"/>    
+    <bendpoint x="5074" y="2197"/>    
+    <bendpoint x="5074" y="5120"/>    
+    <bendpoint x="4600" y="9725"/>    
+    <bendpoint x="4558" y="14726"/>    
+    <bendpoint x="4495" y="15857"/>    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="211" name="impGraph"/>      
+      <multiplicity id="212" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="54" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="213">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <association id="214">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="215" name="itsRule"/>      
+      <multiplicity id="216" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="55" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="217">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <association id="218">    
+    <end type="SOURCE" refId="49" navigable="false">      
+      <attribute id="219" name="itsDefaultStrategy"/>      
+      <multiplicity id="220" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="221">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="222" name="theBaseFactory"/>      
+      <multiplicity id="223" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="224">    
+    <end type="SOURCE" refId="50"/>    
+    <end type="TARGET" refId="47"/>  
+  </generalization>  
+  <realization id="225">    
+    <bendpoint x="1367" y="940"/>    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <association id="226">    
+    <end type="SOURCE" refId="38" navigable="false">      
+      <attribute id="227" name="failedApplConds"/>      
+      <multiplicity id="228" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="229">    
+    <end type="SOURCE" refId="51"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <association id="230">    
+    <bendpoint x="3619" y="19680"/>    
+    <bendpoint x="3366" y="23745"/>    
+    <bendpoint x="3305" y="26442"/>    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="231" name="itsDomObjects"/>      
+      <multiplicity id="232" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="233">    
+    <bendpoint x="3118" y="9725"/>    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="234" name="itsMatches"/>      
+      <multiplicity id="235" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="236">    
+    <end type="SOURCE" refId="44" navigable="false">      
+      <attribute id="237" name="itsIncomingArcs"/>      
+      <multiplicity id="238" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="239">    
+    <bendpoint x="3633" y="23745"/>    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="54"/>  
+  </generalization>  
+  <association id="240">    
+    <bendpoint x="1046" y="2197"/>    
+    <bendpoint x="1046" y="5120"/>    
+    <bendpoint x="1046" y="9725"/>    
+    <bendpoint x="1046" y="14726"/>    
+    <bendpoint x="1046" y="15857"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="241" name="strategy"/>      
+      <multiplicity id="242" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="243">    
+    <bendpoint x="3430" y="27771"/>    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="244" name="wrongType"/>      
+      <multiplicity id="245" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="246">    
+    <bendpoint x="4411" y="14726"/>    
+    <bendpoint x="4516" y="15857"/>    
+    <bendpoint x="4516" y="19680"/>    
+    <bendpoint x="4506" y="23745"/>    
+    <bendpoint x="4495" y="26442"/>    
+    <end type="SOURCE" refId="55" navigable="false">      
+      <attribute id="247" name="deleted"/>      
+      <multiplicity id="248" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="249">    
+    <bendpoint x="3387" y="23745"/>    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="250" name="containingGraph"/>      
+      <multiplicity id="251" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="54" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="252">    
+    <bendpoint x="4243" y="14726"/>    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <association id="253">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="254" name="r2lInv"/>      
+      <multiplicity id="255" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="256">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="257" name="relatedMorph"/>      
+      <multiplicity id="258" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="259">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="260" name="orig"/>      
+      <multiplicity id="261" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="262">    
+    <bendpoint x="4516" y="26442"/>    
+    <bendpoint x="4516" y="27771"/>    
+    <end type="SOURCE" refId="41" navigable="false">      
+      <attribute id="263" name="types"/>      
+      <multiplicity id="264" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="265">    
+    <bendpoint x="4621" y="9725"/>    
+    <bendpoint x="4621" y="14726"/>    
+    <bendpoint x="4558" y="15857"/>    
+    <bendpoint x="4495" y="19680"/>    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="266" name="typeSet"/>      
+      <multiplicity id="267" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="41" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="268">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="269" name="rule"/>      
+      <multiplicity id="270" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="55" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="271">    
+    <bendpoint x="3158" y="2197"/>    
+    <bendpoint x="3158" y="5120"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="272" name="currentRule"/>      
+      <multiplicity id="273" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="55" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="274">    
+    <end type="SOURCE" refId="55" navigable="false">      
+      <attribute id="275" name="itsShiftedPACs"/>      
+      <multiplicity id="276" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="277">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="50"/>  
+  </generalization>  
+  <association id="278">    
+    <bendpoint x="1428" y="9725"/>    
+    <bendpoint x="1130" y="14726"/>    
+    <bendpoint x="1170" y="15857"/>    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="279" name="strategy"/>      
+      <multiplicity id="280" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="281">    
+    <end type="SOURCE" refId="36" navigable="false">      
+      <attribute id="282" name="preRule"/>      
+      <multiplicity id="283" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="55" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="284">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="285" name="pacs"/>      
+      <multiplicity id="286" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="287">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <association id="288">    
+    <bendpoint x="4558" y="9725"/>    
+    <bendpoint x="4537" y="14726"/>    
+    <bendpoint x="4474" y="15857"/>    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="289" name="itsGraph"/>      
+      <multiplicity id="290" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="54" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="291">    
+    <bendpoint x="46" y="19680"/>    
+    <bendpoint x="46" y="23745"/>    
+    <bendpoint x="46" y="26442"/>    
+    <bendpoint x="46" y="27771"/>    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="292" name="itsChildren"/>      
+      <multiplicity id="293" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="294">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="295" name="itsColimMorphisms"/>      
+      <multiplicity id="296" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="297">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="298" name="itsOrig"/>      
+      <multiplicity id="299" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="54" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="300">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <association id="301">    
+    <bendpoint x="1386" y="9725"/>    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="302" name="match"/>      
+      <multiplicity id="303" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="304">    
+    <bendpoint x="4285" y="9725"/>    
+    <bendpoint x="4285" y="14726"/>    
+    <end type="SOURCE" refId="53" navigable="false">      
+      <attribute id="305" name="failedApplConds"/>      
+      <multiplicity id="306" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="307">    
+    <bendpoint x="4558" y="26442"/>    
+    <bendpoint x="4558" y="27771"/>    
+    <end type="SOURCE" refId="41" navigable="false">      
+      <attribute id="308" name="inheritanceType"/>      
+      <multiplicity id="309" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="310">    
+    <end type="SOURCE" refId="51" navigable="false">      
+      <attribute id="311" name="itsPAC"/>      
+      <multiplicity id="312" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="313">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="314" name="invRule"/>      
+      <multiplicity id="315" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="55" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="316">    
+    <bendpoint x="4390" y="9725"/>    
+    <bendpoint x="4390" y="14726"/>    
+    <end type="SOURCE" refId="53" navigable="false">      
+      <attribute id="317" name="embLr2ToLcr"/>      
+      <multiplicity id="318" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="319">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <association id="320">    
+    <bendpoint x="1025" y="5120"/>    
+    <bendpoint x="1025" y="9725"/>    
+    <bendpoint x="1025" y="14726"/>    
+    <bendpoint x="1025" y="15857"/>    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="321" name="strategy"/>      
+      <multiplicity id="322" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="323">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="324" name="itsCompleter"/>      
+      <multiplicity id="325" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="326">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="327" name="typeGraphNode"/>      
+      <multiplicity id="328" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="42" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="329">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="55"/>  
+  </generalization>  
+  <association id="330">    
+    <bendpoint x="1109" y="9725"/>    
+    <bendpoint x="1109" y="14726"/>    
+    <bendpoint x="1618" y="15857"/>    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="331" name="graph"/>      
+      <multiplicity id="332" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="54" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="333">    
+    <bendpoint x="4537" y="9725"/>    
+    <bendpoint x="4579" y="14726"/>    
+    <bendpoint x="4579" y="15857"/>    
+    <bendpoint x="4579" y="19680"/>    
+    <bendpoint x="4579" y="23745"/>    
+    <bendpoint x="4579" y="26442"/>    
+    <end type="SOURCE" refId="53" navigable="false">      
+      <attribute id="334" name="reflectedObjectFlowIO"/>      
+      <multiplicity id="335" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="336">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="337" name="itsImag"/>      
+      <multiplicity id="338" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="54" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="339">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="340" name="obj"/>      
+      <multiplicity id="341" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="342">    
+    <bendpoint x="2064" y="15857"/>    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="343" name="itsPACstars"/>      
+      <multiplicity id="344" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="51" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="345">    
+    <end type="SOURCE" refId="54" navigable="false">      
+      <attribute id="346" name="itsNodes"/>      
+      <multiplicity id="347" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="44" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="348">    
+    <bendpoint x="4516" y="9725"/>    
+    <bendpoint x="4516" y="14726"/>    
+    <bendpoint x="4453" y="15857"/>    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="349" name="itsGraphs"/>      
+      <multiplicity id="350" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="54" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="351">    
+    <bendpoint x="1191" y="15857"/>    
+    <bendpoint x="1191" y="19680"/>    
+    <bendpoint x="1191" y="23745"/>    
+    <bendpoint x="1191" y="26442"/>    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="352" name="createdNodes"/>      
+      <multiplicity id="353" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="354">    
+    <bendpoint x="1784" y="15857"/>    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="355" name="itsCurrentNACstar"/>      
+      <multiplicity id="356" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="357">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="54"/>  
+  </generalization>  
+  <realization id="358">    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="20"/>  
+  </realization>  
+  <realization id="359">    
+    <bendpoint x="25" y="19680"/>    
+    <bendpoint x="25" y="23745"/>    
+    <bendpoint x="25" y="26442"/>    
+    <bendpoint x="25" y="27771"/>    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="20"/>  
+  </realization>  
+  <association id="360">    
+    <bendpoint x="3137" y="2197"/>    
+    <bendpoint x="3137" y="5120"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="361" name="currentRuleSet"/>      
+      <multiplicity id="362" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="55" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="363">    
+    <end type="SOURCE" refId="38" navigable="false">      
+      <attribute id="364" name="embeddingLeft"/>      
+      <multiplicity id="365" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="366">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="367" name="image"/>      
+      <multiplicity id="368" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="369">    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="370" name="gratra"/>      
+      <multiplicity id="371" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="372">    
+    <bendpoint x="4348" y="9725"/>    
+    <bendpoint x="4348" y="14726"/>    
+    <end type="SOURCE" refId="53" navigable="false">      
+      <attribute id="373" name="overlap1"/>      
+      <multiplicity id="374" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="375">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="376" name="itsGraGras"/>      
+      <multiplicity id="377" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="378">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="379" name="itsParent"/>      
+      <multiplicity id="380" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="381">    
+    <bendpoint x="4453" y="14726"/>    
+    <bendpoint x="4537" y="15857"/>    
+    <bendpoint x="4537" y="19680"/>    
+    <bendpoint x="4537" y="23745"/>    
+    <bendpoint x="4537" y="26442"/>    
+    <end type="SOURCE" refId="55" navigable="false">      
+      <attribute id="382" name="preserved"/>      
+      <multiplicity id="383" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="384">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="385" name="typeError"/>      
+      <multiplicity id="386" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="387">    
+    <bendpoint x="587" y="19680"/>    
+    <bendpoint x="587" y="23745"/>    
+    <bendpoint x="587" y="26442"/>    
+    <bendpoint x="587" y="27771"/>    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="388" name="itsChildren"/>      
+      <multiplicity id="389" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="390">    
+    <end type="SOURCE" refId="55" navigable="false">      
+      <attribute id="391" name="itsMatch"/>      
+      <multiplicity id="392" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="393">    
+    <bendpoint x="4327" y="14726"/>    
+    <bendpoint x="4432" y="15857"/>    
+    <bendpoint x="4453" y="19680"/>    
+    <bendpoint x="4474" y="23745"/>    
+    <bendpoint x="4474" y="26442"/>    
+    <end type="SOURCE" refId="55" navigable="false">      
+      <attribute id="394" name="changedPreserved"/>      
+      <multiplicity id="395" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="396">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="397" name="rulesVec"/>      
+      <multiplicity id="398" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="55" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="399">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="400" name="l2rInv"/>      
+      <multiplicity id="401" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="402">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="403" name="typeGraphNode"/>      
+      <multiplicity id="404" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="42" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="405">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <association id="406">    
+    <bendpoint x="4264" y="14726"/>    
+    <bendpoint x="4264" y="15857"/>    
+    <bendpoint x="4044" y="19680"/>    
+    <bendpoint x="3696" y="23745"/>    
+    <bendpoint x="3347" y="26442"/>    
+    <end type="SOURCE" refId="55" navigable="false">      
+      <attribute id="407" name="forbiden"/>      
+      <multiplicity id="408" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="409">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="31"/>  
+  </realization>  
+  <association id="410">    
+    <bendpoint x="4369" y="9725"/>    
+    <bendpoint x="4369" y="14726"/>    
+    <end type="SOURCE" refId="53" navigable="false">      
+      <attribute id="411" name="embRr1ToRcr"/>      
+      <multiplicity id="412" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="413">    
+    <end type="SOURCE" refId="47" navigable="false">      
+      <attribute id="414" name="itsType"/>      
+      <multiplicity id="415" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

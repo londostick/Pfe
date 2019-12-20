@@ -1,0 +1,20 @@
+Mon Nov 25 23:39:24 CET 2019
+Version:  AGG 2.1
+
+Graph transformation of : GraGra
+on graph : Graph
+[ Rule Rule1 ]
+
+[ Rule Rule1 ]
+Rule 	 applied:  true
+[ Rule Rule1 ]
+Rule 	 applied:  false
+
+[ Rule1 ]
+Rule1 	 applied:  false
+
+[ ]
+
+Used time for graph transformation: 5ms
+
+Graph transformation finished

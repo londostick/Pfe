@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document version="1.0">
+    <GraphTransformationSystem ID="I0" directed="true" name="GraGra" parallel="true">
+        <TaggedValue Tag="AttrHandler" TagValue="Java Expr">
+            <TaggedValue Tag="Package" TagValue="java.lang"/>
+            <TaggedValue Tag="Package" TagValue="java.util"/>
+            <TaggedValue Tag="Package" TagValue="automata_impl"/>
+            <TaggedValue Tag="Package" TagValue="automata"/>
+            <TaggedValue Tag="Package" TagValue="automata.impl"/>
+            <TaggedValue Tag="Package" TagValue="org.eclipse.draw2d"/>
+            <TaggedValue Tag="Package" TagValue="org.eclipse.draw2d.geometry"/>
+            <TaggedValue Tag="Package" TagValue="org.eclipse.swt.graphics"/>
+        </TaggedValue>
+        <TaggedValue Tag="CSP" TagValue="true"/>
+        <TaggedValue Tag="injective" TagValue="true"/>
+        <TaggedValue Tag="dangling" TagValue="true"/>
+        <TaggedValue Tag="NACs" TagValue="true"/>
+        <TaggedValue Tag="PACs" TagValue="true"/>
+        <TaggedValue Tag="GACs" TagValue="true"/>
+        <TaggedValue Tag="consistency" TagValue="true"/>
+        <TaggedValue Tag="layered" TagValue="true"/>
+        <TaggedValue Tag="TypeGraphLevel" TagValue="DISABLED"/>
+        <Types>
+            <NodeType ID="I1" abstract="false" name="youssef%:RECT:java.awt.Color[r=255,g=0,b=0]:[NODE]:"/>
+            <EdgeType ID="I2" abstract="false" name="LINK%:SOLID_LINE:java.awt.Color[r=0,g=0,b=0]:[EDGE]:"/>
+        </Types>
+        <Graph ID="I3" kind="HOST" name="Graph">
+            <Node ID="I4" type="I1"/>
+            <Node ID="I5" type="I1"/>
+            <Node ID="I6" type="I1"/>
+            <Edge ID="I7" source="I5" target="I6" type="I2"/>
+            <Edge ID="I8" source="I6" target="I4" type="I2"/>
+        </Graph>
+        <Rule ID="I9" formula="true" name="Rule">
+            <Graph ID="I11" kind="LHS" name="LeftOf_Rule">
+                <Node ID="I12" type="I1"/>
+                <Node ID="I13" type="I1"/>
+                <Edge ID="I14" source="I13" target="I12" type="I2"/>
+            </Graph>
+            <Graph ID="I15" kind="RHS" name="RightOf_Rule">
+                <Node ID="I16" type="I1"/>
+                <Node ID="I17" type="I1"/>
+                <Node ID="I18" type="I1"/>
+                <Edge ID="I19" source="I17" target="I18" type="I2"/>
+                <Edge ID="I20" source="I18" target="I16" type="I2"/>
+            </Graph>
+            <Morphism comment="Formula: true" name="Rule"/>
+            <TaggedValue Tag="layer" TagValue="6"/>
+            <TaggedValue Tag="priority" TagValue="1"/>
+        </Rule>
+        <Matches>
+            <MatchOf Rule="I9">
+                <Match ID="I21">
+                    <Morphism name="MatchOf_Rule">
+                        <Mapping image="I6" orig="I12"/>
+                        <Mapping image="I5" orig="I13"/>
+                        <Mapping image="I7" orig="I14"/>
+                    </Morphism>
+                </Match>
+            </MatchOf>
+        </Matches>
+    </GraphTransformationSystem>
+</Document>

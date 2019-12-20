@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document version="1.0">
+    <GraphTransformationSystem ID="I0" directed="true"
+        name="component_graph" parallel="true">
+        <TaggedValue Tag="AttrHandler" TagValue="Java Expr">
+            <TaggedValue Tag="Package" TagValue="java.lang"/>
+            <TaggedValue Tag="Package" TagValue="java.util"/>
+        </TaggedValue>
+        <TaggedValue Tag="CSP" TagValue="true"/>
+        <TaggedValue Tag="injective" TagValue="true"/>
+        <TaggedValue Tag="dangling" TagValue="true"/>
+        <TaggedValue Tag="NACs" TagValue="true"/>
+        <TaggedValue Tag="PACs" TagValue="true"/>
+        <TaggedValue Tag="GACs" TagValue="true"/>
+        <TaggedValue Tag="consistency" TagValue="true"/>
+        <TaggedValue Tag="TypeGraphLevel" TagValue="DISABLED"/>
+        <Types>
+            <NodeType ID="I1" abstract="false" name="ACM2%:RECT:java.awt.Color[r=0,g=0,b=0]:[NODE]:"/>
+            <EdgeType ID="I2" abstract="false" name="link%:SOLID_LINE:java.awt.Color[r=0,g=0,b=0]:[EDGE]:"/>
+            <NodeType ID="I3" abstract="false" name="Person%:RECT:java.awt.Color[r=0,g=0,b=0]:[NODE]:">
+                <AttrType ID="I5" attrname="name" typename="String" visible="true"/>
+                <AttrType ID="I6" attrname="age" typename="int" visible="true"/>
+                <AttrType ID="I7" attrname="sex" typename="String" visible="true"/>
+            </NodeType>
+            <EdgeType ID="I8" abstract="false" name="loves%:SOLID_LINE:java.awt.Color[r=0,g=0,b=0]:[EDGE]:"/>
+            <Graph ID="I9" kind="TG" name="TypeGraph">
+                <Node ID="I10" type="I3"/>
+                <Edge ID="I12" source="I10" sourcemin="0" target="I10"
+                    targetmax="1" targetmin="0" type="I8"/>
+            </Graph>
+        </Types>
+        <Graph ID="I13" kind="HOST" name="HostGraph"/>
+        <Constraints>
+            <Graphconstraint_Atomic ID="I14" name="opposed">
+                <Premise>
+                    <Graph ID="I15" kind="PREMISE" name="Graph">
+                        <Node ID="I16" type="I1"/>
+                        <Node ID="I18" type="I1"/>
+                        <Edge ID="I20" source="I16" target="I18" type="I2"/>
+                    </Graph>
+                </Premise>
+                <Conclusion>
+                    <Graph ID="I21" kind="CONCLUSION" name="Graph">
+                        <Node ID="I22" type="I1"/>
+                        <Node ID="I24" type="I1"/>
+                        <Edge ID="I26" source="I22" target="I24" type="I2"/>
+                    </Graph>
+                    <Morphism name="Conclusion0">
+                        <Mapping image="I22" orig="I16"/>
+                        <Mapping image="I24" orig="I18"/>
+                        <Mapping image="I26" orig="I20"/>
+                    </Morphism>
+                    <AttrCondition>
+                        <Condition>
+                            <Value>
+                                <string>!s.equals(s1)</string>
+                            </Value>
+                        </Condition>
+                    </AttrCondition>
+                </Conclusion>
+            </Graphconstraint_Atomic>
+            <Formula ID="I28" comment="" enabled="true" f="1" name="Formula">
+                <Layer Layer="" Size="0"/>
+                <Priority Priority="" Size="0"/>
+            </Formula>
+        </Constraints>
+        <Rule ID="I29" formula="true" name="NewPerson">
+            <Graph ID="I31" kind="LHS" name="Left"/>
+            <Graph ID="I32" kind="RHS" name="Right">
+                <Node ID="I33" type="I3"/>
+            </Graph>
+            <Morphism name="NewPerson"/>
+            <ApplCondition>
+                <NAC>
+                    <Graph ID="I35" kind="NAC" name="Graph">
+                        <Node ID="I36" type="I3">
+                            <Attribute constant="true" type="I6">
+                                <Value>
+                                    <int>25</int>
+                                </Value>
+                            </Attribute>
+                        </Node>
+                    </Graph>
+                    <Morphism name="notSame"/>
+                </NAC>
+            </ApplCondition>
+            <TaggedValue Tag="layer" TagValue="0"/>
+            <TaggedValue Tag="priority" TagValue="0"/>
+        </Rule>
+        <Rule ID="I39" formula="true" name="SetRelation">
+            <Parameter name="x" type="int"/>
+            <Parameter name="y" type="int"/>
+            <Graph ID="I41" kind="LHS" name="Left">
+                <Node ID="I42" type="I3">
+                    <Attribute type="I6" variable="true">
+                        <Value>
+                            <string>x</string>
+                        </Value>
+                    </Attribute>
+                </Node>
+                <Node ID="I45" type="I3">
+                    <Attribute type="I6" variable="true">
+                        <Value>
+                            <string>y</string>
+                        </Value>
+                    </Attribute>
+                </Node>
+            </Graph>
+            <Graph ID="I48" kind="RHS" name="Right">
+                <Node ID="I49" type="I3"/>
+                <Node ID="I51" type="I3"/>
+                <Edge ID="I53" source="I49" target="I51" type="I8"/>
+            </Graph>
+            <Morphism name="SetRelation">
+                <Mapping image="I49" orig="I42"/>
+                <Mapping image="I51" orig="I45"/>
+            </Morphism>
+            <ApplCondition>
+                <AttrCondition>
+                    <Condition>
+                        <Value>
+                            <string>(x&gt;=16)&amp;&amp;(x&lt;70)</string>
+                        </Value>
+                    </Condition>
+                    <Condition>
+                        <Value>
+                            <string>(y&gt;=16)&amp;&amp;(y&lt;70)</string>
+                        </Value>
+                    </Condition>
+                </AttrCondition>
+            </ApplCondition>
+            <TaggedValue Tag="layer" TagValue="0"/>
+            <TaggedValue Tag="priority" TagValue="0"/>
+        </Rule>
+        <Rule ID="I55" formula="true" name="RemoveRelation">
+            <Graph ID="I57" kind="LHS" name="Left">
+                <Node ID="I58" type="I3"/>
+                <Node ID="I60" type="I3"/>
+                <Edge ID="I62" source="I58" target="I60" type="I8"/>
+            </Graph>
+            <Graph ID="I63" kind="RHS" name="Right">
+                <Node ID="I64" type="I3"/>
+                <Node ID="I66" type="I3"/>
+            </Graph>
+            <Morphism name="RemoveRelation">
+                <Mapping image="I64" orig="I58"/>
+                <Mapping image="I66" orig="I60"/>
+            </Morphism>
+            <TaggedValue Tag="layer" TagValue="0"/>
+            <TaggedValue Tag="priority" TagValue="0"/>
+        </Rule>
+    </GraphTransformationSystem>
+</Document>

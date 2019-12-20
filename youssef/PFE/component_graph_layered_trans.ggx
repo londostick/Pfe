@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document version="1.0">
+    <GraphTransformationSystem ID="I0" directed="true"
+        name="component_graph_layered" parallel="true">
+        <TaggedValue Tag="AttrHandler" TagValue="Java Expr">
+            <TaggedValue Tag="Package" TagValue="java.lang"/>
+            <TaggedValue Tag="Package" TagValue="java.util"/>
+        </TaggedValue>
+        <TaggedValue Tag="CSP" TagValue="true"/>
+        <TaggedValue Tag="injective" TagValue="true"/>
+        <TaggedValue Tag="dangling" TagValue="true"/>
+        <TaggedValue Tag="NACs" TagValue="true"/>
+        <TaggedValue Tag="PACs" TagValue="true"/>
+        <TaggedValue Tag="GACs" TagValue="true"/>
+        <TaggedValue Tag="consistency" TagValue="true"/>
+        <TaggedValue Tag="layered" TagValue="true"/>
+        <TaggedValue Tag="TypeGraphLevel" TagValue="DISABLED"/>
+        <Types>
+            <NodeType ID="I1" abstract="false" name="ACM2%:RECT:java.awt.Color[r=0,g=0,b=0]:[NODE]:"/>
+            <EdgeType ID="I2" abstract="false" name="link%:SOLID_LINE:java.awt.Color[r=0,g=0,b=0]:[EDGE]:"/>
+            <NodeType ID="I3" abstract="false" name="Person%:RECT:java.awt.Color[r=0,g=0,b=0]:[NODE]:">
+                <AttrType ID="I5" attrname="name" typename="String" visible="true"/>
+                <AttrType ID="I6" attrname="age" typename="int" visible="true"/>
+                <AttrType ID="I7" attrname="sex" typename="String" visible="true"/>
+            </NodeType>
+            <EdgeType ID="I8" abstract="false" name="loves%:SOLID_LINE:java.awt.Color[r=0,g=0,b=0]:[EDGE]:"/>
+            <Graph ID="I9" kind="TG" name="TypeGraph">
+                <Node ID="I10" type="I3"/>
+                <Edge ID="I12" source="I10" sourcemin="0" target="I10"
+                    targetmax="1" targetmin="0" type="I8"/>
+            </Graph>
+        </Types>
+        <Graph ID="I13" kind="HOST" name="HostGraph">
+            <Node ID="I14" type="I3"/>
+            <Node ID="I16" type="I3"/>
+            <Node ID="I18" type="I3"/>
+            <Node ID="I20" type="I3"/>
+            <Node ID="I22" type="I3"/>
+            <Node ID="I24" type="I3"/>
+            <Node ID="I26" type="I3"/>
+            <Node ID="I28" type="I3"/>
+            <Node ID="I30" type="I3"/>
+            <Node ID="I32" type="I3"/>
+            <Node ID="I34" type="I3"/>
+            <Node ID="I36" type="I3"/>
+            <Node ID="I38" type="I3"/>
+            <Node ID="I40" type="I3"/>
+            <Node ID="I42" type="I3"/>
+            <Node ID="I44" type="I3"/>
+            <Node ID="I46" type="I3"/>
+            <Node ID="I48" type="I3"/>
+            <Node ID="I50" type="I3"/>
+            <Node ID="I52" type="I3"/>
+            <Node ID="I54" type="I3"/>
+            <Node ID="I56" type="I3"/>
+            <Node ID="I58" type="I3"/>
+            <Node ID="I60" type="I3"/>
+            <Node ID="I62" type="I3"/>
+            <Node ID="I64" type="I3"/>
+            <Node ID="I66" type="I3"/>
+            <Node ID="I68" type="I3"/>
+            <Node ID="I70" type="I3"/>
+            <Node ID="I72" type="I3"/>
+            <Node ID="I74" type="I3"/>
+            <Node ID="I76" type="I3"/>
+            <Node ID="I78" type="I3"/>
+            <Node ID="I80" type="I3"/>
+            <Node ID="I82" type="I3"/>
+            <Node ID="I84" type="I3"/>
+            <Node ID="I86" type="I3"/>
+            <Node ID="I88" type="I3"/>
+            <Node ID="I90" type="I3"/>
+            <Node ID="I92" type="I3"/>
+            <Node ID="I94" type="I3"/>
+            <Node ID="I96" type="I3"/>
+            <Node ID="I98" type="I3"/>
+            <Node ID="I100" type="I3"/>
+            <Node ID="I102" type="I3"/>
+            <Node ID="I104" type="I3"/>
+            <Node ID="I106" type="I3"/>
+            <Node ID="I108" type="I3"/>
+            <Node ID="I110" type="I3"/>
+            <Node ID="I112" type="I3"/>
+            <Node ID="I114" type="I3"/>
+            <Node ID="I116" type="I3"/>
+            <Node ID="I118" type="I3"/>
+            <Node ID="I120" type="I3"/>
+            <Node ID="I122" type="I3"/>
+            <Node ID="I124" type="I3"/>
+            <Node ID="I126" type="I3"/>
+            <Node ID="I128" type="I3"/>
+            <Node ID="I130" type="I3"/>
+            <Node ID="I132" type="I3"/>
+            <Node ID="I134" type="I3"/>
+            <Node ID="I136" type="I3"/>
+            <Node ID="I138" type="I3"/>
+            <Node ID="I140" type="I3"/>
+            <Node ID="I142" type="I3"/>
+            <Node ID="I144" type="I3"/>
+            <Node ID="I146" type="I3"/>
+            <Node ID="I148" type="I3"/>
+            <Node ID="I150" type="I3"/>
+            <Node ID="I152" type="I3"/>
+            <Node ID="I154" type="I3"/>
+            <Node ID="I156" type="I3"/>
+            <Node ID="I158" type="I3"/>
+            <Node ID="I160" type="I3"/>
+            <Node ID="I162" type="I3"/>
+            <Node ID="I164" type="I3"/>
+            <Node ID="I166" type="I3"/>
+            <Node ID="I168" type="I3"/>
+            <Node ID="I170" type="I3"/>
+            <Node ID="I172" type="I3"/>
+            <Node ID="I174" type="I3"/>
+            <Node ID="I176" type="I3"/>
+            <Node ID="I178" type="I3"/>
+            <Node ID="I180" type="I3"/>
+            <Node ID="I182" type="I3"/>
+            <Node ID="I184" type="I3"/>
+            <Node ID="I186" type="I3"/>
+            <Node ID="I188" type="I3"/>
+            <Node ID="I190" type="I3"/>
+            <Node ID="I192" type="I3"/>
+            <Node ID="I194" type="I3"/>
+            <Node ID="I196" type="I3"/>
+            <Node ID="I198" type="I3"/>
+            <Node ID="I200" type="I3"/>
+            <Node ID="I202" type="I3"/>
+            <Node ID="I204" type="I3"/>
+            <Node ID="I206" type="I3"/>
+            <Node ID="I208" type="I3"/>
+            <Node ID="I210" type="I3"/>
+            <Node ID="I212" type="I3"/>
+            <Node ID="I214" type="I3"/>
+            <Node ID="I216" type="I3"/>
+            <Node ID="I218" type="I3"/>
+            <Node ID="I220" type="I3"/>
+            <Node ID="I222" type="I3"/>
+            <Node ID="I224" type="I3"/>
+            <Node ID="I226" type="I3"/>
+            <Node ID="I228" type="I3"/>
+            <Node ID="I230" type="I3"/>
+            <Node ID="I232" type="I3"/>
+            <Node ID="I234" type="I3"/>
+            <Node ID="I236" type="I3"/>
+            <Node ID="I238" type="I3"/>
+            <Node ID="I240" type="I3"/>
+            <Node ID="I242" type="I3"/>
+            <Node ID="I244" type="I3"/>
+            <Node ID="I246" type="I3"/>
+            <Node ID="I248" type="I3"/>
+            <Node ID="I250" type="I3"/>
+            <Node ID="I252" type="I3"/>
+            <Node ID="I254" type="I3"/>
+            <Node ID="I256" type="I3"/>
+            <Node ID="I258" type="I3"/>
+            <Node ID="I260" type="I3"/>
+            <Node ID="I262" type="I3"/>
+            <Node ID="I264" type="I3"/>
+            <Node ID="I266" type="I3"/>
+            <Node ID="I268" type="I3"/>
+            <Node ID="I270" type="I3"/>
+            <Node ID="I272" type="I3"/>
+            <Node ID="I274" type="I3"/>
+            <Node ID="I276" type="I3"/>
+            <Node ID="I278" type="I3"/>
+            <Node ID="I280" type="I3"/>
+            <Node ID="I282" type="I3"/>
+            <Node ID="I284" type="I3"/>
+            <Node ID="I286" type="I3"/>
+            <Node ID="I288" type="I3"/>
+            <Node ID="I290" type="I3"/>
+            <Node ID="I292" type="I3"/>
+            <Node ID="I294" type="I3"/>
+        </Graph>
+        <Constraints>
+            <Graphconstraint_Atomic ID="I296" name="opposed">
+                <Premise>
+                    <Graph ID="I297" kind="PREMISE" name="Graph">
+                        <Node ID="I298" type="I1"/>
+                        <Node ID="I300" type="I1"/>
+                        <Edge ID="I302" source="I298" target="I300" type="I2"/>
+                    </Graph>
+                </Premise>
+                <Conclusion>
+                    <Graph ID="I303" kind="CONCLUSION" name="Graph">
+                        <Node ID="I304" type="I1"/>
+                        <Node ID="I306" type="I1"/>
+                        <Edge ID="I308" source="I304" target="I306" type="I2"/>
+                    </Graph>
+                    <Morphism name="Conclusion0">
+                        <Mapping image="I304" orig="I298"/>
+                        <Mapping image="I306" orig="I300"/>
+                        <Mapping image="I308" orig="I302"/>
+                    </Morphism>
+                    <AttrCondition>
+                        <Condition>
+                            <Value>
+                                <string>!s.equals(s1)</string>
+                            </Value>
+                        </Condition>
+                    </AttrCondition>
+                </Conclusion>
+            </Graphconstraint_Atomic>
+            <Formula ID="I310" comment="" enabled="true" f="1" name="Formula">
+                <Layer Layer="" Size="0"/>
+                <Priority Priority="" Size="0"/>
+            </Formula>
+        </Constraints>
+        <Rule ID="I311" formula="true" name="NewPerson">
+            <Graph ID="I313" kind="LHS" name="Left"/>
+            <Graph ID="I314" kind="RHS" name="Right">
+                <Node ID="I315" type="I3"/>
+            </Graph>
+            <Morphism name="NewPerson"/>
+            <ApplCondition>
+                <NAC>
+                    <Graph ID="I317" kind="NAC" name="Graph">
+                        <Node ID="I318" type="I3">
+                            <Attribute constant="true" type="I6">
+                                <Value>
+                                    <int>25</int>
+                                </Value>
+                            </Attribute>
+                        </Node>
+                    </Graph>
+                    <Morphism name="notSame"/>
+                </NAC>
+            </ApplCondition>
+            <TaggedValue Tag="layer" TagValue="0"/>
+            <TaggedValue Tag="priority" TagValue="0"/>
+        </Rule>
+        <Rule ID="I321" formula="true" name="SetRelation">
+            <Parameter name="x" type="int"/>
+            <Parameter name="y" type="int"/>
+            <Graph ID="I323" kind="LHS" name="Left">
+                <Node ID="I324" type="I3">
+                    <Attribute type="I6" variable="true">
+                        <Value>
+                            <string>x</string>
+                        </Value>
+                    </Attribute>
+                </Node>
+                <Node ID="I327" type="I3">
+                    <Attribute type="I6" variable="true">
+                        <Value>
+                            <string>y</string>
+                        </Value>
+                    </Attribute>
+                </Node>
+            </Graph>
+            <Graph ID="I330" kind="RHS" name="Right">
+                <Node ID="I331" type="I3"/>
+                <Node ID="I333" type="I3"/>
+                <Edge ID="I335" source="I331" target="I333" type="I8"/>
+            </Graph>
+            <Morphism name="SetRelation">
+                <Mapping image="I331" orig="I324"/>
+                <Mapping image="I333" orig="I327"/>
+            </Morphism>
+            <ApplCondition>
+                <AttrCondition>
+                    <Condition>
+                        <Value>
+                            <string>(x&gt;=16)&amp;&amp;(x&lt;70)</string>
+                        </Value>
+                    </Condition>
+                    <Condition>
+                        <Value>
+                            <string>(y&gt;=16)&amp;&amp;(y&lt;70)</string>
+                        </Value>
+                    </Condition>
+                </AttrCondition>
+            </ApplCondition>
+            <TaggedValue Tag="layer" TagValue="2"/>
+            <TaggedValue Tag="priority" TagValue="0"/>
+        </Rule>
+        <Rule ID="I337" formula="true" name="RemoveRelation">
+            <Graph ID="I339" kind="LHS" name="Left">
+                <Node ID="I340" type="I3"/>
+                <Node ID="I342" type="I3"/>
+                <Edge ID="I344" source="I340" target="I342" type="I8"/>
+            </Graph>
+            <Graph ID="I345" kind="RHS" name="Right">
+                <Node ID="I346" type="I3"/>
+                <Node ID="I348" type="I3"/>
+            </Graph>
+            <Morphism name="RemoveRelation">
+                <Mapping image="I346" orig="I340"/>
+                <Mapping image="I348" orig="I342"/>
+            </Morphism>
+            <TaggedValue Tag="layer" TagValue="1"/>
+            <TaggedValue Tag="priority" TagValue="0"/>
+        </Rule>
+        <Matches/>
+    </GraphTransformationSystem>
+</Document>

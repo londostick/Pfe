@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document version="1.0">
+    <GraphTransformationSystem ID="I0" directed="true"
+        name="Lovers_Graph_layered" parallel="true">
+        <TaggedValue Tag="AttrHandler" TagValue="Java Expr">
+            <TaggedValue Tag="Package" TagValue="java.lang"/>
+            <TaggedValue Tag="Package" TagValue="java.util"/>
+        </TaggedValue>
+        <TaggedValue Tag="CSP" TagValue="true"/>
+        <TaggedValue Tag="injective" TagValue="true"/>
+        <TaggedValue Tag="dangling" TagValue="true"/>
+        <TaggedValue Tag="NACs" TagValue="true"/>
+        <TaggedValue Tag="PACs" TagValue="true"/>
+        <TaggedValue Tag="GACs" TagValue="true"/>
+        <TaggedValue Tag="consistency" TagValue="true"/>
+        <TaggedValue Tag="layered" TagValue="true"/>
+        <TaggedValue Tag="TypeGraphLevel" TagValue="ENABLED_MAX"/>
+        <Types>
+            <NodeType ID="I1" abstract="false" name="Person%:RECT:java.awt.Color[r=0,g=0,b=0]:[NODE]:">
+                <AttrType ID="I3" attrname="name" typename="String" visible="true"/>
+                <AttrType ID="I4" attrname="age" typename="int" visible="true"/>
+                <AttrType ID="I5" attrname="sex" typename="String" visible="true"/>
+            </NodeType>
+            <EdgeType ID="I6" abstract="false" name="loves%:SOLID_LINE:java.awt.Color[r=0,g=0,b=0]:[EDGE]:"/>
+            <Graph ID="I7" kind="TG" name="TypeGraph">
+                <Node ID="I8" type="I1"/>
+                <Edge ID="I10" source="I8" sourcemin="0" target="I8"
+                    targetmax="1" targetmin="0" type="I6"/>
+            </Graph>
+        </Types>
+        <Graph ID="I11" kind="HOST" name="HostGraph">
+            <Node ID="I12" type="I1">
+                <Attribute constant="true" type="I3">
+                    <Value>
+                        <string>Otti</string>
+                    </Value>
+                </Attribute>
+                <Attribute constant="true" type="I4">
+                    <Value>
+                        <int>14</int>
+                    </Value>
+                </Attribute>
+                <Attribute constant="true" type="I5">
+                    <Value>
+                        <string>m</string>
+                    </Value>
+                </Attribute>
+            </Node>
+            <Node ID="I17" type="I1">
+                <Attribute constant="true" type="I3">
+                    <Value>
+                        <string>Mary</string>
+                    </Value>
+                </Attribute>
+                <Attribute constant="true" type="I4">
+                    <Value>
+                        <int>10</int>
+                    </Value>
+                </Attribute>
+                <Attribute constant="true" type="I5">
+                    <Value>
+                        <string>f</string>
+                    </Value>
+                </Attribute>
+            </Node>
+            <Node ID="I22" type="I1">
+                <Attribute constant="true" type="I3">
+                    <Value>
+                        <string>Lotti</string>
+                    </Value>
+                </Attribute>
+                <Attribute constant="true" type="I4">
+                    <Value>
+                        <int>50</int>
+                    </Value>
+                </Attribute>
+                <Attribute constant="true" type="I5">
+                    <Value>
+                        <string>f</string>
+                    </Value>
+                </Attribute>
+            </Node>
+            <Node ID="I27" type="I1">
+                <Attribute constant="true" type="I3">
+                    <Value>
+                        <string>Hans</string>
+                    </Value>
+                </Attribute>
+                <Attribute constant="true" type="I4">
+                    <Value>
+                        <int>60</int>
+                    </Value>
+                </Attribute>
+                <Attribute constant="true" type="I5">
+                    <Value>
+                        <string>m</string>
+                    </Value>
+                </Attribute>
+            </Node>
+            <Node ID="I32" type="I1">
+                <Attribute constant="true" type="I3">
+                    <Value>
+                        <string>thibaut</string>
+                    </Value>
+                </Attribute>
+                <Attribute constant="true" type="I4">
+                    <Value>
+                        <int>25</int>
+                    </Value>
+                </Attribute>
+                <Attribute constant="true" type="I5">
+                    <Value>
+                        <string>m</string>
+                    </Value>
+                </Attribute>
+            </Node>
+            <Edge ID="I37" source="I27" target="I22" type="I6"/>
+            <Edge ID="I38" source="I22" target="I32" type="I6"/>
+            <Edge ID="I39" source="I32" target="I22" type="I6"/>
+        </Graph>
+        <Constraints>
+            <Graphconstraint_Atomic ID="I40" name="opposed">
+                <Premise>
+                    <Graph ID="I41" kind="PREMISE" name="Graph">
+                        <Node ID="I42" type="I1"/>
+                        <Node ID="I44" type="I1"/>
+                        <Edge ID="I46" source="I42" target="I44" type="I6"/>
+                    </Graph>
+                </Premise>
+                <Conclusion>
+                    <Graph ID="I47" kind="CONCLUSION" name="Graph">
+                        <Node ID="I48" type="I1">
+                            <Attribute type="I5" variable="true">
+                                <Value>
+                                    <string>s</string>
+                                </Value>
+                            </Attribute>
+                        </Node>
+                        <Node ID="I51" type="I1">
+                            <Attribute type="I5" variable="true">
+                                <Value>
+                                    <string>s1</string>
+                                </Value>
+                            </Attribute>
+                        </Node>
+                        <Edge ID="I54" source="I48" target="I51" type="I6"/>
+                    </Graph>
+                    <Morphism name="Conclusion0">
+                        <Mapping image="I48" orig="I42"/>
+                        <Mapping image="I51" orig="I44"/>
+                        <Mapping image="I54" orig="I46"/>
+                    </Morphism>
+                    <AttrCondition>
+                        <Condition>
+                            <Value>
+                                <string>!s.equals(s1)</string>
+                            </Value>
+                        </Condition>
+                    </AttrCondition>
+                </Conclusion>
+            </Graphconstraint_Atomic>
+            <Formula ID="I56" comment="" enabled="true" f="1" name="Formula">
+                <Layer Layer="" Size="0"/>
+                <Priority Priority="" Size="0"/>
+            </Formula>
+        </Constraints>
+        <Rule ID="I57" formula="true" name="NewPerson">
+            <Graph ID="I59" kind="LHS" name="Left"/>
+            <Graph ID="I60" kind="RHS" name="Right">
+                <Node ID="I61" type="I1">
+                    <Attribute constant="true" type="I3">
+                        <Value>
+                            <string>thibaut</string>
+                        </Value>
+                    </Attribute>
+                    <Attribute constant="true" type="I4">
+                        <Value>
+                            <int>25</int>
+                        </Value>
+                    </Attribute>
+                    <Attribute constant="true" type="I5">
+                        <Value>
+                            <string>m</string>
+                        </Value>
+                    </Attribute>
+                </Node>
+            </Graph>
+            <Morphism name="NewPerson"/>
+            <ApplCondition>
+                <NAC>
+                    <Graph ID="I66" kind="NAC" name="Graph">
+                        <Node ID="I67" type="I1">
+                            <Attribute constant="true" type="I4">
+                                <Value>
+                                    <int>25</int>
+                                </Value>
+                            </Attribute>
+                        </Node>
+                    </Graph>
+                    <Morphism name="notSame"/>
+                </NAC>
+            </ApplCondition>
+            <TaggedValue Tag="layer" TagValue="0"/>
+            <TaggedValue Tag="priority" TagValue="0"/>
+        </Rule>
+        <Rule ID="I70" formula="true" name="SetRelation">
+            <Parameter name="x" type="int"/>
+            <Parameter name="y" type="int"/>
+            <Graph ID="I72" kind="LHS" name="Left">
+                <Node ID="I73" type="I1">
+                    <Attribute type="I4" variable="true">
+                        <Value>
+                            <string>x</string>
+                        </Value>
+                    </Attribute>
+                </Node>
+                <Node ID="I76" type="I1">
+                    <Attribute type="I4" variable="true">
+                        <Value>
+                            <string>y</string>
+                        </Value>
+                    </Attribute>
+                </Node>
+            </Graph>
+            <Graph ID="I79" kind="RHS" name="Right">
+                <Node ID="I80" type="I1"/>
+                <Node ID="I82" type="I1"/>
+                <Edge ID="I84" source="I80" target="I82" type="I6"/>
+            </Graph>
+            <Morphism name="SetRelation">
+                <Mapping image="I80" orig="I73"/>
+                <Mapping image="I82" orig="I76"/>
+            </Morphism>
+            <ApplCondition>
+                <AttrCondition>
+                    <Condition>
+                        <Value>
+                            <string>(x&gt;=16)&amp;&amp;(x&lt;70)</string>
+                        </Value>
+                    </Condition>
+                    <Condition>
+                        <Value>
+                            <string>(y&gt;=16)&amp;&amp;(y&lt;70)</string>
+                        </Value>
+                    </Condition>
+                </AttrCondition>
+            </ApplCondition>
+            <TaggedValue Tag="layer" TagValue="2"/>
+            <TaggedValue Tag="priority" TagValue="0"/>
+        </Rule>
+        <Rule ID="I86" formula="true" name="RemoveRelation">
+            <Graph ID="I88" kind="LHS" name="Left">
+                <Node ID="I89" type="I1"/>
+                <Node ID="I91" type="I1"/>
+                <Edge ID="I93" source="I89" target="I91" type="I6"/>
+            </Graph>
+            <Graph ID="I94" kind="RHS" name="Right">
+                <Node ID="I95" type="I1"/>
+                <Node ID="I97" type="I1"/>
+            </Graph>
+            <Morphism name="RemoveRelation">
+                <Mapping image="I95" orig="I89"/>
+                <Mapping image="I97" orig="I91"/>
+            </Morphism>
+            <TaggedValue Tag="layer" TagValue="1"/>
+            <TaggedValue Tag="priority" TagValue="0"/>
+        </Rule>
+        <Matches>
+            <MatchOf Rule="I70">
+                <Match ID="I99">
+                    <Morphism name="MatchOf_SetRelation">
+                        <Mapping image="I32" orig="I73"/>
+                        <Mapping image="I22" orig="I76"/>
+                    </Morphism>
+                </Match>
+            </MatchOf>
+        </Matches>
+    </GraphTransformationSystem>
+</Document>

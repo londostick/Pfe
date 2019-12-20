@@ -1,0 +1,42 @@
+Tue Dec 03 18:26:56 CET 2019
+Version:  AGG 2.1
+
+Layered graph transformation of : Lovers_Graph_layered
+on graph : HostGraph
+[  NewPerson  SetRelation  RemoveRelation  ]
+
+Layer: 0
+[  NewPerson  ]
+NewPerson 	 applied:  false
+NAC  "notSame"  is violated!
+[  ]
+used time: 2ms
+
+Layer: 1
+[  RemoveRelation  ]
+RemoveRelation 	 applied:  true
+[  RemoveRelation  ]
+RemoveRelation 	 applied:  true
+[  RemoveRelation  ]
+RemoveRelation 	 applied:  true
+[  RemoveRelation  ]
+RemoveRelation 	 applied:  false
+
+[  ]
+used time: 33ms
+
+Layer: 2
+[  SetRelation  ]
+SetRelation 	 applied:  true
+[  SetRelation  ]
+SetRelation 	 applied:  true
+[  SetRelation  ]
+SetRelation 	 applied:  true
+[  SetRelation  ]
+SetRelation 	 applied:  false
+Attribute condition  [ (x>=16)&&(x<70) ]  failed.
+[  ]
+used time: 181ms
+
+No more layers.
+Graph transformation finished
